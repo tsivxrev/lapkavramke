@@ -46,10 +46,6 @@ const copyPageLink = async () => {
         :alt="pet.name"
         class="absolute -bottom-6 left-4 h-24 w-24 border-2 border-primary"
       />
-
-      <div class="flex items-center absolute bottom-2 right-2 gap-1">
-        <UButton icon="i-lucide-pencil" variant="soft" color="neutral" size="xs" label="Изменить" to="https://tsivx.t.me" />
-      </div>
     </div>
 
     <div class="mt-8 space-y-4">
